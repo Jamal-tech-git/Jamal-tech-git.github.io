@@ -26,10 +26,15 @@ author:
   avatar           : "profile.png"
   name             : "Jamal Abdul Nasir"
   pronouns         : # example: "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Dr. Jamal Abdul Nasir
+Research Fellow in Simulation of Advanced Materials for Catalysis
+Department of Chemistry
+University College London
+20 Gordon Street, London WC1H 0AJ, UK"
   location         : "UK, London"
   employer         : "University College London"
-  uri              : "https://Jamal-tech-git.github.io"
+  uri              : #"https://Jamal-tech-git.github.io"
+  github           : "Jamal-tech-git"
   email            : "jamal.nasir.18@ucl.ac.uk" 
 
   # Academic websites

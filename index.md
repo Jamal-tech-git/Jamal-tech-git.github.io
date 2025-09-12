@@ -1,11 +1,9 @@
 ---
 layout: single
-title: "Welcome to the Jamal Lab at UCL!"
 author_profile: true
 classes: "wide"
 header:
-  overlay_image: "{{ '/images/TOC.png' | relative_url }}"
-  overlay_filter: 0.25
+  image: "{{ '/images/TOC.png' | relative_url }}"
 ---
 
 ## Welcome to the Jamal Lab — Modelling of Advanced Materials at University College London

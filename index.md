@@ -3,7 +3,8 @@ layout: single
 author_profile: true
 classes: "wide"
 header:
-  image: "{{ '/images/TOC.png' | relative_url }}"
+  overlay_image: "/images/TOC.png"
+  overlay_filter: 0.25
 ---
 
 ## Welcome to the Jamal Lab — Modelling of Advanced Materials at University College London
@@ -15,7 +16,7 @@ I utilise state-of-the-art computational methods (DFT/ML) to design next-generat
 I work at the intersection of computational materials science, experimental chemistry, and artificial intelligence (AI), deploying techniques from quantum chemistry (e.g., DFT), solid-state physics, and machine learning (ML) to reveal atomic-level structure–property relationships. Using insights from large-scale calculations on HPC systems, I predict, design, and optimise materials for real-world technologies.
 
 <p align="center">
-  <img src="{{ '/images/hero-graphic.png' | relative_url }}" alt="Illustration of lab research areas" width="740">
+  <img src="/images/hero-graphic.png" alt="Illustration of lab research areas" width="740">
 </p>
 
 The team is led by **Jamal Abdul Nasir**.
@@ -24,4 +25,3 @@ The team is led by **Jamal Abdul Nasir**.
 
 ### Interested in joining?
 See our [Research](/research/) and [Join](/join/) pages.
-

@@ -15,7 +15,7 @@ classes: "wide"
   </div>
 </div>
 
-I utilise state-of-the-art computational methods (DFT/ML), machine learning/AI tools and experimental techniques to design next-generation energy materials for catalysis and understand their atomic-scale properties in the Department of Chemistry at University College London. These methods enable the design and development of materials for catalytic applications, including **NH₃-SCR**, **HER**, and **CO₂ chemistry**, **Materials properties**.
+I utilise state-of-the-art computational methods (DFT/ML), machine learning/AI tools and experimental techniques to design next-generation energy materials for catalysis and understand their atomic-scale properties in the Department of Chemistry at University College London. These methods enable the design and development of materials for catalytic applications, including **NH₃-SCR**, **HER**, and **CO₂ chemistry**, as well as **Materials properties**.
 
 I work at the intersection of computational materials science, experimental chemistry, and artificial intelligence (AI), deploying techniques from quantum chemistry (e.g., DFT), solid-state physics, and machine learning (ML) to reveal atomic-level structure–property relationships. Using insights from large-scale calculations on HPC systems, I predict, design, and optimise materials for real-world technologies.
 

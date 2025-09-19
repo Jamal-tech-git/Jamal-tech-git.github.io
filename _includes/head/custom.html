@@ -1,29 +1,37 @@
 <style>
+/* Adjust just these three numbers for size */
 :root{
-  --avatar-size: 300px;    /* change to taste */
-  --avatar-size-md: 240px;
-  --avatar-size-sm: 180px;
+  --avatar-size: 240px;   /* desktop */
+  --avatar-size-md: 200px;/* tablets */
+  --avatar-size-sm: 150px;/* phones */
 }
 
-/* Circular container */
+/* Perfect circular avatar (container) */
 .author__avatar{
   width: var(--avatar-size) !important;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
+  height: var(--avatar-size) !important;   /* keep square */
+  border-radius: 50% !important;           /* make it a circle */
+  overflow: hidden;                         /* crop inside the circle */
   margin: 0 auto 1rem;
-  background: #fff;        /* fills the arc behind the image if it doesn't fully cover */
+  padding: 0 !important;                    /* remove theme padding if any */
 }
 
-/* Show entire image inside the circle (no cut) */
+/* Fill the circle, no stretching */
 .author__avatar img{
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain;     /* key change: no cropping */
-  object-position: center;
+  max-width: none !important;
+  object-fit: cover;                        /* fill the circle edge-to-edge */
+  object-position: 50% 45%;                 /* tweak framing (move up/down) */
   display: block;
+  border-radius: 0 !important;              /* container provides the circle */
 }
 
-@media (max-width:1024px){ .author__avatar{ width: var(--avatar-size-md) !important; } }
-@media (max-width: 680px){ .author__avatar{ width: var(--avatar-size-sm) !important; } }
+/* Responsive sizes */
+@media (max-width: 1024px){
+  .author__avatar{ width: var(--avatar-size-md) !important; height: var(--avatar-size-md) !important; }
+}
+@media (max-width: 680px){
+  .author__avatar{ width: var(--avatar-size-sm) !important; height: var(--avatar-size-sm) !important; }
+}
 </style>

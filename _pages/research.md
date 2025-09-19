@@ -18,7 +18,7 @@ I am especially interested in **catalysis** (heterogeneous catalysis, photocatal
 ## Our Tools
 Experiment ⇆ theory: spectral “fingerprints” to validate DFT/QM/MM and fine-tune MACE models.
 ### Quantum Mechanics
-<img src="/images/QMMM.png" alt="Orbitals / electronic states" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
+<img src="/images/QMMM.png" alt="Orbitals / electronic states" style="float:right; margin:0 0 1rem 1rem; max-width:400px;">
 First-principles quantum-mechanical methods—**Density Functional Theory (DFT)** and **hybrid QM/MM**—allow us to predict materials behaviour and chemical processes. These methods are implemented in robust codes and run on high-performance computers (e.g., YOUNG, ARCHER2), enabling quantitative predictions of structures and energetics of the important reactions such as NH3-SCR, HER, OER and CO2 hydrogenation.
 
 <div style="clear:both;"></div>
@@ -30,7 +30,7 @@ Machine learning has become a transformative tool for materials research. I use 
 - Fine-tune **MACE models** for better accuracy inorganic materials (structures, properties, defects)
 
 ### Experimental Activities 
-<img src="/images/experiments.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
+<img src="/images/Experiments.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:400px;">
 I design, synthesise, and probe catalysts/photocatalysts under realistic conditions—linking operando data to mechanism.
 - Operando catalysis: DRIFTS, XANES/EXAFS, XRD + reaction kinetics.
 - Photocatalysis: CdS/g-C₃N₄ nanohybrids; H₂ evolution & formic-acid dehydrogenation.
@@ -47,9 +47,9 @@ These efforts often involve collaboration (and friendly competition!) with partn
 
 ### Energy Materials
 <img src="/images/energy_materials.jpg" alt="Energy materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
-We aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from ultrathin solar cells and efficient photocatalysts to high-capacity battery cathodes.
+I aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from ultrathin solar cells and efficient photocatalysts to high-capacity battery cathodes.
 
-We frequently collaborate with experimental groups who synthesise materials and build devices; they test our predictions and we help explain observations—high-impact team projects with lots of fun along the way.
+I frequently collaborate with experimental and theoretical groups who develop new theory and synthesise novel materials and build devices; they test our predictions and we help explain observations—high-impact team projects with lots of fun along the way.
 
 **Selected examples**
 - *Intrinsic point defect tolerance in selenium for indoor and tandem photovoltaics*, **Energy & Environmental Science** (2025)  

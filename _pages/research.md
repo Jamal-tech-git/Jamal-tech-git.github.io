@@ -9,31 +9,36 @@ toc_sticky: true
 
 ## Research Interest Areas
 
-At the Jamal Lab, we develop and employ powerful computational techniques to tackle crucial materials challenges for a better world. We use quantum-mechanical (e.g. **DFT**, **GW**) and **machine-learning** approaches to investigate, design, and develop advanced materials across a range of technologies.
+At the Jamal Lab, we develop and employ powerful computational techniques to tackle crucial materials challenges. We use quantum-mechanical (e.g. **DFT**, **GW**) and **machine-learning** approaches to investigate, design, and develop advanced materials across a range of technologies.
 
 We are especially interested in **catalysis** (heterogeneous catalysis, photocatalysis) and **energy storage** (batteries). Core focus areas are outlined below; we are flexible to the skillsets and interests of those who join our team.
+
 ---
 
 ## Our Tools
 
 ### Quantum Mechanics
-{% include figure image_path="/images/orbitals.png" alt="Orbitals" caption="Orbitals / electronic states" class="align-right" %}
+<img src="/images/orbitals.png" alt="Orbitals / electronic states" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
 First-principles quantum-mechanical methods—**Density Functional Theory (DFT)** and **Green’s functions (GW)**—allow us to predict materials behaviour from atoms up, without fitting to experiment. These methods are implemented in robust codes and run on high-performance computers (e.g., ARCHER2), enabling quantitative predictions of structures, energetics, and excited-state properties.
 
+<div style="clear:both;"></div>
+
 ### Machine Learning (ML) / Artificial Intelligence (AI)
-{% include figure image_path="/images/materials_gnn.png" alt="Materials GNN" caption="Graph neural networks for materials" class="align-right" %}
+<img src="/images/materials_gnn.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
 Machine learning has become a transformative tool for materials research. We develop and deploy **large ML models** that reproduce quantum-mechanical results, but at far greater speed and scale—expanding the search space and improving fidelity. Examples include:
 - Screening for specific **defect motifs** (e.g., split vacancies) across large crystal databases  
 - Building **foundation models** for inorganic materials (structures, properties, defects)
 
 These efforts often involve collaboration (and friendly competition!) with partners across academia and industry.
 
+<div style="clear:both;"></div>
+
 ---
 
 ## Our Challenges
 
 ### Energy Materials
-{% include figure image_path="/images/energy_materials.jpg" alt="Energy materials" caption="Energy conversion & storage" class="align-right" %}
+<img src="/images/energy_materials.jpg" alt="Energy materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
 We aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from ultrathin solar cells and efficient photocatalysts to high-capacity battery cathodes.
 
 We frequently collaborate with experimental groups who synthesise materials and build devices; they test our predictions and we help explain observations—high-impact team projects with lots of fun along the way.
@@ -44,22 +49,24 @@ We frequently collaborate with experimental groups who synthesise materials and 
 - *Strong absorption and ultrafast localisation in NaBiS₂…*, **Nature Communications** (2022)  
 - *Defect tolerance via external passivation in SrTiO₃:Al*, **J. Am. Chem. Soc.** (2025)
 
-> Replace or remove these bullets with your own items; they’re placeholders.
+<div style="clear:both;"></div>
 
 ---
 
 ### Defects
-{% include figure image_path="/images/defects.png" alt="Point defects" caption="Point defects in semiconductors" class="align-right" %}
+<img src="/images/defects.png" alt="Point defects in semiconductors" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
 Defects are rare atomic “mistakes” with outsized macroscopic effects; they often **control performance** in semiconductors, solar cells, TCOs, thermoelectrics, (photo)electrocatalysts, quantum sensors, and LEDs. Because they are hard to probe experimentally, **computational studies** provide crucial, high-resolution insight.
 
 **Selected examples**
 - *Identifying split-vacancy defects with foundation models & electrostatics*, **JPhys Energy** (2025)  
 - *Identifying ground-state structures of point defects in solids*, **npj Comput. Mater.** (2023)
 
+<div style="clear:both;"></div>
+
 ---
 
 ### Disorder
-{% include figure image_path="/images/disorder.png" alt="Disorder" caption="Static & dynamic disorder" class="align-right" %}
+<img src="/images/disorder.png" alt="Static & dynamic disorder" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
 Real materials contain **surfaces, interfaces, disorder, and defects**—features that frequently limit device performance. We develop techniques to model these imperfections accurately, increasingly leveraging ML to capture complex structure–property relationships.
 
 **Selected examples**
@@ -67,6 +74,8 @@ Real materials contain **surfaces, interfaces, disorder, and defects**—feature
 - *Strong absorption and ultrafast localisation in NaBiS₂…*, **Nature Communications** (2022)  
 - *Cation disorder dominates defect chemistry in LMNO spinels*, **J. Mater. Chem. A** (2023)  
 - *Interplay of static and dynamic disorder in Sn₂SbS₂I₃*, **J. Am. Chem. Soc.** (2023)
+
+<div style="clear:both;"></div>
 
 ---
 

@@ -8,29 +8,29 @@ toc_sticky: true
 ---
 
 ## Research Interest Areas
-<img src="/images/experiment_theory.jpg" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
-At the Jamal Lab, I develop and employ powerful computational techniques to tackle crucial materials challenges. I use a combination of quantum-mechanical (e.g. **DFT**), **machine-learning** and **experimental** approaches to investigate, design, and develop advanced materials across a range of technologies.
+<img src="/images/experiment_theory.jpg" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
+I develop and employ powerful computational techniques to tackle crucial materials challenges. I use a combination of quantum-mechanical (e.g. **DFT**), **machine-learning** and **experimental** approaches to investigate, design, and develop advanced materials across a range of technologies.
 
-We are especially interested in **catalysis** (heterogeneous catalysis, photocatalysis) and **energy storage** (batteries). Core focus areas are outlined below; we are flexible to the skillsets and interests of those who join our team.
+I am especially interested in **catalysis** (heterogeneous catalysis, photocatalysis) and **energy storage** (batteries). Core focus areas are outlined below; we are flexible to the skillsets and interests of those who join our team.
 
 ---
 
 ## Our Tools
 Experiment ⇆ theory: spectral “fingerprints” to validate DFT/QM/MM and fine-tune MACE models.
 ### Quantum Mechanics
-<img src="/images/orbitals.png" alt="Orbitals / electronic states" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
+<img src="/images/QMMM.png" alt="Orbitals / electronic states" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
 First-principles quantum-mechanical methods—**Density Functional Theory (DFT)** and **hybrid QM/MM**—allow us to predict materials behaviour and chemical processes. These methods are implemented in robust codes and run on high-performance computers (e.g., YOUNG, ARCHER2), enabling quantitative predictions of structures and energetics of the important reactions such as NH3-SCR, HER, OER and CO2 hydrogenation.
 
 <div style="clear:both;"></div>
 
 ### Machine Learning (ML) / Artificial Intelligence (AI)
-<img src="/images/materials_gnn.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
+<img src="/images/TOC.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
 Machine learning has become a transformative tool for materials research. I use **MACE ML models** that reproduce quantum-mechanical results, but at far greater speed and scale compared to DFT. Examples include:
 - Model phase transitions **microporous and dense silica** across large crystal databases  
 - Fine-tune **MACE models** for better accuracy inorganic materials (structures, properties, defects)
 
 ### Experimental Activities 
-<img src="/images/experiments.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
+<img src="/images/experiments.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
 I design, synthesise, and probe catalysts/photocatalysts under realistic conditions—linking operando data to mechanism.
 - Operando catalysis: DRIFTS, XANES/EXAFS, XRD + reaction kinetics.
 - Photocatalysis: CdS/g-C₃N₄ nanohybrids; H₂ evolution & formic-acid dehydrogenation.

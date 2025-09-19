@@ -12,7 +12,6 @@ toc_sticky: true
 At the Jamal Lab, we develop and employ powerful computational techniques to tackle crucial materials challenges for a better world. We use quantum-mechanical (e.g. **DFT**, **GW**) and **machine-learning** approaches to investigate, design, and develop advanced materials across a range of technologies.
 
 We are especially interested in **catalysis** (heterogeneous catalysis, photocatalysis) and **energy storage** (batteries). Core focus areas are outlined below; we are flexible to the skillsets and interests of those who join our team.
-
 ---
 
 ## Our Tools

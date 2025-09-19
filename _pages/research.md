@@ -30,7 +30,7 @@ Machine learning has become a transformative tool for materials research. I use 
 - Fine-tune **MACE models** for better accuracy inorganic materials (structures, properties, defects)
 
 ### Experimental Activities 
-<img src="/images/Experiments.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:400px;">
+<img src="/images/Experiments.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:500px;">
 I design, synthesise, and probe catalysts/photocatalysts under realistic conditions—linking operando data to mechanism.
 - Operando catalysis: DRIFTS, XANES/EXAFS, XRD + reaction kinetics.
 - Photocatalysis: CdS/g-C₃N₄ nanohybrids; H₂ evolution & formic-acid dehydrogenation.
@@ -49,7 +49,7 @@ These efforts often involve collaboration (and friendly competition!) with partn
 <img src="/images/energy_materials.jpg" alt="Energy materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
 I aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from ultrathin solar cells and efficient photocatalysts to high-capacity battery cathodes.
 
-I frequently collaborate with experimental and theoretical groups who develop new theory and synthesise novel materials and build devices; they test our predictions and we help explain observations—high-impact team projects with lots of fun along the way.
+I frequently collaborate with experimental and theoretical groups who develop new theory and synthesise novel materials, and build devices; they test our predictions and I help explain observations—high-impact team projects with lots of fun along the way.
 
 **Selected examples**
 - *Intrinsic point defect tolerance in selenium for indoor and tandem photovoltaics*, **Energy & Environmental Science** (2025)  
@@ -68,20 +68,6 @@ Defects are rare atomic “mistakes” with outsized macroscopic effects; they o
 **Selected examples**
 - *Identifying split-vacancy defects with foundation models & electrostatics*, **JPhys Energy** (2025)  
 - *Identifying ground-state structures of point defects in solids*, **npj Comput. Mater.** (2023)
-
-<div style="clear:both;"></div>
-
----
-
-### Disorder
-<img src="/images/disorder.png" alt="Static & dynamic disorder" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
-Real materials contain **surfaces, interfaces, disorder, and defects**—features that frequently limit device performance. We develop techniques to model these imperfections accurately, increasingly leveraging ML to capture complex structure–property relationships.
-
-**Selected examples**
-- *Cation disorder engineering yields AgBiS₂ nanocrystals…*, **Nature Photonics** (2022)  
-- *Strong absorption and ultrafast localisation in NaBiS₂…*, **Nature Communications** (2022)  
-- *Cation disorder dominates defect chemistry in LMNO spinels*, **J. Mater. Chem. A** (2023)  
-- *Interplay of static and dynamic disorder in Sn₂SbS₂I₃*, **J. Am. Chem. Soc.** (2023)
 
 <div style="clear:both;"></div>
 

@@ -30,6 +30,7 @@ Machine learning has become a transformative tool for materials research. I use 
 - Fine-tune **MACE models** for better accuracy inorganic materials (structures, properties, defects)
 
 ### Experimental Activities 
+<img src="/images/experiments.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
 I design, synthesise, and probe catalysts/photocatalysts under realistic conditions—linking operando data to mechanism.
 - Operando catalysis: DRIFTS, XANES/EXAFS, XRD + reaction kinetics.
 - Photocatalysis: CdS/g-C₃N₄ nanohybrids; H₂ evolution & formic-acid dehydrogenation.

@@ -16,18 +16,25 @@ We are especially interested in **catalysis** (heterogeneous catalysis, photocat
 ---
 
 ## Our Tools
-
+Experiment ⇆ theory: spectral “fingerprints” to validate DFT/QM/MM and fine-tune MACE models.
 ### Quantum Mechanics
 <img src="/images/orbitals.png" alt="Orbitals / electronic states" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
-First-principles quantum-mechanical methods—**Density Functional Theory (DFT)** and **Green’s functions (GW)**—allow us to predict materials behaviour from atoms up, without fitting to experiment. These methods are implemented in robust codes and run on high-performance computers (e.g., ARCHER2), enabling quantitative predictions of structures, energetics, and excited-state properties.
+First-principles quantum-mechanical methods—**Density Functional Theory (DFT)** and **hybrid QM/MM**—allow us to predict materials behaviour and chemical processes. These methods are implemented in robust codes and run on high-performance computers (e.g., YOUNG, ARCHER2), enabling quantitative predictions of structures and energetics of the important reactions such as NH3-SCR, HER, OER and CO2 hydrogenation.
 
 <div style="clear:both;"></div>
 
 ### Machine Learning (ML) / Artificial Intelligence (AI)
 <img src="/images/materials_gnn.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
-Machine learning has become a transformative tool for materials research. We develop and deploy **large ML models** that reproduce quantum-mechanical results, but at far greater speed and scale—expanding the search space and improving fidelity. Examples include:
-- Screening for specific **defect motifs** (e.g., split vacancies) across large crystal databases  
-- Building **foundation models** for inorganic materials (structures, properties, defects)
+Machine learning has become a transformative tool for materials research. I use **MACE ML models** that reproduce quantum-mechanical results, but at far greater speed and scale compared to DFT. Examples include:
+- Model phase transitions **microporous and dense silica** across large crystal databases  
+- Fine-tune **MACE models** for better accuracy inorganic materials (structures, properties, defects)
+
+### Experimental Activities 
+I design, synthesise, and probe catalysts/photocatalysts under realistic conditions—linking operando data to mechanism.
+- Operando catalysis: DRIFTS, XANES/EXAFS, XRD + reaction kinetics.
+- Photocatalysis: CdS/g-C₃N₄ nanohybrids; H₂ evolution & formic-acid dehydrogenation.
+- Water splitting: materials design, synthesis, benchmarking, stability tests.
+- Toolbox: TEM, XPS, UV-Vis, Raman; hydro/solvothermal & ion-exchange syntheses.
 
 These efforts often involve collaboration (and friendly competition!) with partners across academia and industry.
 

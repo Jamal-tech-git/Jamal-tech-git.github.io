@@ -8,8 +8,8 @@ toc_sticky: true
 ---
 
 ## Research Interest Areas
-
-At the Jamal Lab, we develop and employ powerful computational techniques to tackle crucial materials challenges. We use quantum-mechanical (e.g. **DFT**, **GW**) and **machine-learning** approaches to investigate, design, and develop advanced materials across a range of technologies.
+<img src="/images/experiment_theory.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
+At the Jamal Lab, I develop and employ powerful computational techniques to tackle crucial materials challenges. I use a combination of quantum-mechanical (e.g. **DFT**), **machine-learning** and **experimental** approaches to investigate, design, and develop advanced materials across a range of technologies.
 
 We are especially interested in **catalysis** (heterogeneous catalysis, photocatalysis) and **energy storage** (batteries). Core focus areas are outlined below; we are flexible to the skillsets and interests of those who join our team.
 

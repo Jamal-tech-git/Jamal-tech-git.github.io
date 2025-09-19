@@ -8,7 +8,7 @@ toc_sticky: true
 ---
 
 ## Research Interest Areas
-<img src="/images/experiment_theory.jpg" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
+<img src="/images/experiment_theory.jpg" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:400px;">
 I develop and employ powerful computational techniques to tackle crucial materials challenges. I use a combination of quantum-mechanical (e.g. **DFT**), **machine-learning** and **experimental** approaches to investigate, design, and develop advanced materials across a range of technologies.
 
 I am especially interested in **catalysis** (heterogeneous catalysis, photocatalysis) and **energy storage** (batteries). Core focus areas are outlined below; we are flexible to the skillsets and interests of those who join our team.

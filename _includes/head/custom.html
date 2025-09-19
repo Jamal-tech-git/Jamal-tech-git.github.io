@@ -1,32 +1,29 @@
 <style>
-/* Perfect circular avatar, no stretching */
-:root {
-  --avatar-size: 300px;   /* desktop size – change as you like */
-  --avatar-size-md: 240px;/* tablets */
-  --avatar-size-sm: 180px;/* phones */
+:root{
+  --avatar-size: 300px;    /* change to taste */
+  --avatar-size-md: 240px;
+  --avatar-size-sm: 180px;
 }
 
+/* Circular container */
 .author__avatar{
   width: var(--avatar-size) !important;
-  aspect-ratio: 1 / 1;                 /* keep it square */
-  border-radius: 50%;                  /* circle mask */
-  overflow: hidden;                    /* crop inside the circle */
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
   margin: 0 auto 1rem;
+  background: #fff;        /* fills the arc behind the image if it doesn't fully cover */
 }
 
+/* Show entire image inside the circle (no cut) */
 .author__avatar img{
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover;                   /* crop instead of stretch */
-  display: block;                      /* remove tiny gaps */
-  border-radius: 0;                    /* container handles the circle */
+  object-fit: contain;     /* key change: no cropping */
+  object-position: center;
+  display: block;
 }
 
-/* Responsive sizes */
-@media (max-width: 1024px){
-  .author__avatar{ width: var(--avatar-size-md) !important; }
-}
-@media (max-width: 680px){
-  .author__avatar{ width: var(--avatar-size-sm) !important; }
-}
+@media (max-width:1024px){ .author__avatar{ width: var(--avatar-size-md) !important; } }
+@media (max-width: 680px){ .author__avatar{ width: var(--avatar-size-sm) !important; } }
 </style>

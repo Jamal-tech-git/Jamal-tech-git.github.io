@@ -1,37 +1,45 @@
 <style>
-/* Adjust just these three numbers for size */
+/* Set your preferred max size once; it will shrink automatically if needed */
 :root{
-  --avatar-size: 240px;   /* desktop */
-  --avatar-size-md: 200px;/* tablets */
-  --avatar-size-sm: 150px;/* phones */
+  --avatar-size: 260px;   /* desktop max */
 }
 
-/* Perfect circular avatar (container) */
+/* Perfect circle and responsive fit inside the sidebar */
 .author__avatar{
-  width: var(--avatar-size) !important;
-  height: var(--avatar-size) !important;   /* keep square */
-  border-radius: 50% !important;           /* make it a circle */
-  overflow: hidden;                         /* crop inside the circle */
+  /* never exceed the sidebar's width */
+  width: min(var(--avatar-size), 100%) !important;
+  aspect-ratio: 1 / 1;
+  border-radius: 50% !important;
+  overflow: hidden;
   margin: 0 auto 1rem;
-  padding: 0 !important;                    /* remove theme padding if any */
+  padding: 0 !important;
+  box-sizing: border-box;
 }
 
-/* Fill the circle, no stretching */
+/* Some themes add inner padding to the sidebar; subtract a little just in case */
+.sidebar .author__avatar{
+  max-width: calc(100% - 2rem); /* room for sidebar padding */
+}
+
+/* Fill the circle without stretching */
 .author__avatar img{
   width: 100% !important;
   height: 100% !important;
   max-width: none !important;
-  object-fit: cover;                        /* fill the circle edge-to-edge */
-  object-position: 50% 45%;                 /* tweak framing (move up/down) */
+  object-fit: cover;              /* full-bleed, no distortion */
+  object-position: 50% 45%;       /* tweak framing if needed */
   display: block;
-  border-radius: 0 !important;              /* container provides the circle */
+  border-radius: 0 !important;
 }
 
-/* Responsive sizes */
-@media (max-width: 1024px){
-  .author__avatar{ width: var(--avatar-size-md) !important; height: var(--avatar-size-md) !important; }
+/* Scale down on smaller screens to prevent clipping */
+@media (max-width: 1200px){
+  :root{ --avatar-size: 220px; }
+}
+@media (max-width: 900px){
+  :root{ --avatar-size: 200px; }
 }
 @media (max-width: 680px){
-  .author__avatar{ width: var(--avatar-size-sm) !important; height: var(--avatar-size-sm) !important; }
+  :root{ --avatar-size: 160px; }
 }
 </style>

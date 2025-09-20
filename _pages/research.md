@@ -18,7 +18,7 @@ I am especially interested in **catalysis** (heterogeneous catalysis, photocatal
 Experiment ⇆ theory: spectral “fingerprints” to validate DFT/QM/MM and fine-tune MACE models.
 ### Quantum Mechanics
 <img src="/images/QMMM.png" alt="Orbitals / electronic states" style="float:right; margin:0 0 1rem 1rem; max-width:400px;">
-First-principles quantum-mechanical methods—**Density Functional Theory (DFT)** and **hybrid QM/MM**—allow us to predict materials behaviour and chemical processes. These methods are implemented in robust codes and run on high-performance computers (e.g., YOUNG, ARCHER2), enabling quantitative predictions of structures and energetics of the important reactions such as NH3-SCR, HER, OER and CO2 hydrogenation.
+First-principles quantum-mechanical methods—**Density Functional Theory (DFT)** and **hybrid QM/MM**—allow us to predict materials behaviour and chemical processes. These methods are implemented in robust codes and run on high-performance computers (e.g., YOUNG, ARCHER2), enabling quantitative predictions of structures and energetics of the important reactions such as NH₃-SCR, HER, OER and CO<sub>2</sub> hydrogenation.
 
 <div style="clear:both;"></div>
 

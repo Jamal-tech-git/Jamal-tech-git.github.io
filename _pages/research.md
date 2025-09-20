@@ -45,7 +45,7 @@ These efforts often involve collaboration (and friendly competition!) with partn
 ## Our Challenges
 
 ### Energy Materials
-<img src="/images/Front_Cover.pdf" alt="Energy materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
+<img src="/images/Front_Cover.pdf" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:500px;">
 I aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from efficient photocatalysts to high-capacity battery cathodes.
 
 I frequently collaborate with experimental and theoretical groups who develop new theory and synthesise novel materials, and build devices; they test our predictions, and I help explain observations—high-impact team projects with lots of fun along the way.

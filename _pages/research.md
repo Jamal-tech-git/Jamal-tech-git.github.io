@@ -32,7 +32,7 @@ Machine learning has become a transformative tool for materials research. I use 
 <img src="/images/Experiments.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:500px;">
 I design, synthesise, and probe catalysts/photocatalysts under realistic conditions—linking operando data to mechanism.
 - Operando catalysis: DRIFTS, XANES/EXAFS, XRD + reaction kinetics.
-- Photocatalysis: CdS/g-C₃N₄ nanohybrids; H₂ evolution & formic-acid dehydrogenation.
+- Photocatalysis: Photoactive nanohybrids; H₂ evolution & formic-acid dehydrogenation.
 - Water splitting: materials design, synthesis, benchmarking, stability tests.
 - Toolbox: TEM, XPS, UV-Vis, Raman; hydro/solvothermal & ion-exchange syntheses.
 
@@ -60,7 +60,7 @@ I frequently collaborate with experimental and theoretical groups who develop ne
 
 ---
 
-### Defects
+### Environmental Remediation 
 <img src="/images/defects.png" alt="Point defects in semiconductors" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
 Defects are rare atomic “mistakes” with outsized macroscopic effects; they often **control performance** in semiconductors, solar cells, TCOs, thermoelectrics, (photo)electrocatalysts, quantum sensors, and LEDs. Because they are hard to probe experimentally, **computational studies** provide crucial, high-resolution insight.
 

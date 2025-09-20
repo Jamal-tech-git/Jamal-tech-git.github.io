@@ -1,40 +1,41 @@
 <style>
-/* Set your preferred max size once; it will shrink automatically if needed */
+/* SIZE you want */
 :root{
-  --avatar-size: 380px;   /* desktop max */
+  --avatar-size: 260px;    /* desktop max */
+  --avatar-size-md: 220px; /* medium screens */
+  --avatar-size-sm: 170px; /* phones */
 }
 
-/* Perfect circle and responsive fit inside the sidebar */
-.author__avatar{
-  /* never exceed the sidebar's width */
+/* Widen the sidebar slightly so bigger avatars fit comfortably */
+.sidebar, .sidebar.sticky {
+  max-width: 340px !important;    /* default is ~300px in many skins */
+}
+
+/* Bulletproof avatar sizing */
+.page .sidebar .author__avatar{
   width: min(var(--avatar-size), 100%) !important;
-  aspect-ratio: 1 / 1;
+  height: auto !important;           /* let aspect-ratio control height */
+  aspect-ratio: 1 / 1;               /* keep perfectly square */
   border-radius: 50% !important;
   overflow: hidden;
-  margin: 0 auto 1rem;
+  margin: 0 auto 1rem !important;
   padding: 0 !important;
   box-sizing: border-box;
 }
 
-/* Some themes add inner padding to the sidebar; subtract a little just in case */
-.sidebar .author__avatar{
-  max-width: calc(100% - 2rem); /* room for sidebar padding */
-}
-
-/* Fill the circle without stretching */
-.author__avatar img{
+.page .sidebar .author__avatar img{
   width: 100% !important;
   height: 100% !important;
   max-width: none !important;
-  object-fit: cover;              /* full-bleed, no distortion */
-  object-position: 50% 45%;       /* tweak framing if needed */
-  display: block;
+  object-fit: cover !important;      /* fills edge-to-edge, no distortion */
+  object-position: 50% 45% !important;
+  display: block !important;
   border-radius: 0 !important;
 }
 
-/* Scale down on smaller screens to prevent clipping */
+/* Scale down on narrower screens */
 @media (max-width: 1200px){
-  :root{ --avatar-size: 220px; }
+  :root{ --avatar-size: 230px; }
 }
 @media (max-width: 900px){
   :root{ --avatar-size: 200px; }

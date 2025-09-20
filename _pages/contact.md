@@ -7,7 +7,7 @@ toc: false
 ---
 
 ## Get in touch
-
+<img src="/images/Jamal-pic-new.jpg" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
 <div class="notice--primary" markdown="1">
 **Email (best):** <a href="mailto:jamal.nasir.18@ucl.ac.uk?subject=Inquiry%20from%20Jamal%20Lab%20website">jamal.nasir.18@ucl.ac.uk</a>  
 **Location:** Department of Chemistry, University College London (UCL), 20 Gordon Street, London WC1H 0AJ, UK

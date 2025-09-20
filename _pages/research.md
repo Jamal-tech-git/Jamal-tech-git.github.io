@@ -46,15 +46,14 @@ These efforts often involve collaboration (and friendly competition!) with partn
 
 ### Energy Materials
 <img src="/images/energy_materials.jpg" alt="Energy materials" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
-I aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from ultrathin solar cells and efficient photocatalysts to high-capacity battery cathodes.
+I aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from efficient photocatalysts to high-capacity battery cathodes.
 
-I frequently collaborate with experimental and theoretical groups who develop new theory and synthesise novel materials, and build devices; they test our predictions and I help explain observations—high-impact team projects with lots of fun along the way.
+I frequently collaborate with experimental and theoretical groups who develop new theory and synthesise novel materials, and build devices; they test our predictions, and I help explain observations—high-impact team projects with lots of fun along the way.
 
 **Selected examples**
-- *Intrinsic point defect tolerance in selenium for indoor and tandem photovoltaics*, **Energy & Environmental Science** (2025)  
-- *Cation disorder engineering yields AgBiS₂ nanocrystals…*, **Nature Photonics** (2022)  
-- *Strong absorption and ultrafast localisation in NaBiS₂…*, **Nature Communications** (2022)  
-- *Defect tolerance via external passivation in SrTiO₃:Al*, **J. Am. Chem. Soc.** (2025)
+- *Photocatalytic Z-scheme Overall Water Splitting: Advances in theory and experiments*, **Advanced Materials** (2021)  
+- *Photocatalytic dehydrogenation of formic acid on CdS nanorods through Ni and Co redox…*, **ChemSusChem** (2018)  
+- *Recent developments and perspectives in CdS-based photocatalysts…*, **Journal of Materials Chemistry A** (2020) 
 
 <div style="clear:both;"></div>
 

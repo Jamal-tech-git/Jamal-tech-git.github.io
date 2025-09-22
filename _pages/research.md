@@ -62,7 +62,7 @@ I frequently collaborate with experimental and theoretical groups who develop ne
 
 ### Environmental Remediation 
 <img src="/images/NH3-SCR.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
-Transition-metal-containing zeolites have wide-ranging applications in several catalytic processes including the selective catalytic reduction (SCR) of NOx species. To understand how transition metal ions (TMIs) can effect NOx reduction chemistry, both structural and mechanistic aspects at the atomic level are needed. 
+Transition-metal-containing zeolites have wide-ranging applications in several catalytic processes, including the selective catalytic reduction (SCR) of NOx species. To understand how transition metal ions (TMIs) can effect NOx reduction chemistry, both structural and mechanistic aspects at the atomic level are needed. 
 
 **Selected examples**
 - *Understanding deNOx mechanisms in transition metal exchanged zeolites*, **Chem. Soc. Rev.** (2024)  
@@ -73,16 +73,14 @@ Transition-metal-containing zeolites have wide-ranging applications in several c
 ---
 
 ## Methods & Software Development
-We also develop new approaches to tackle field-wide challenges. Simple ideas can have an outsized impact—for example, developed "Harmonic Vibrational Code", "Fine-Tuned MACE ML-IP", and updated "QM/MM" techniques, a strategy for discovering low-energy defect configurations that govern conductivity, photovoltaic performance, quantum sensing, and more.
+We also employ and develop new approaches to tackle field-wide challenges. Simple ideas can have an outsized impact—for example, developed "Harmonic Vibrational Code", "Fine-Tuned MACE ML-IP", and updated "QM/MM" techniques, a strategy for discovering low-energy defect configurations that govern conductivity, photovoltaic performance, quantum sensing, and more.
 
 **Selected tools**
-- **ShakeNBreak** — Navigating the defect configurational landscape, **JOSS** (2022)  
-- **doped** — Robust charged-defect supercell workflows, **JOSS** (2024)  
-- **easyunfold** — Unfolding electronic band structures, **JOSS** (2024)
+- **ChemShell** — Multiscale QM/MM modelling of catalytic systems, **Phys. Chem. Chem. Phys.** (2023)  
 
 > See also: our [Publications](/publications/) or [Google Scholar](https://scholar.google.com/citations?user=3z0kd50AAAAJ).
 
 ---
 
 ## Join Us
-Excited by any of the above? Check the [Join](/join/) page or email **jamal.nasir.18@ucl.ac.uk** with your CV and a short note about your interests.
+Excited by any of the above? Email **jamal.nasir.18@ucl.ac.uk**.

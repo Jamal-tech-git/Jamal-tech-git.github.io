@@ -45,7 +45,7 @@ These efforts often involve collaboration (and friendly competition!) with partn
 ## Our Challenges
 
 ### Energy Materials
-<img src="/images/Front_Cover.jpg" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
+<img src="/images/NH3-SCR.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
 
 I aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from efficient photocatalysts to high-capacity battery cathodes.
 
@@ -62,18 +62,18 @@ I frequently collaborate with experimental and theoretical groups who develop ne
 
 ### Environmental Remediation 
 <img src="/images/defects.png" alt="Point defects in semiconductors" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
-Defects are rare atomic “mistakes” with outsized macroscopic effects; they often **control performance** in semiconductors, solar cells, TCOs, thermoelectrics, (photo)electrocatalysts, quantum sensors, and LEDs. Because they are hard to probe experimentally, **computational studies** provide crucial, high-resolution insight.
+Transition-metal-containing zeolites have wide-ranging applications in several catalytic processes including the selective catalytic reduction (SCR) of NOx species. To understand how transition metal ions (TMIs) can effect NOx reduction chemistry, both structural and mechanistic aspects at the atomic level are needed. 
 
 **Selected examples**
-- *Identifying split-vacancy defects with foundation models & electrostatics*, **JPhys Energy** (2025)  
-- *Identifying ground-state structures of point defects in solids*, **npj Comput. Mater.** (2023)
+- *Understanding deNOx mechanisms in transition metal exchanged zeolites*, **Chem. Soc. Rev.** (2024)  
+- *Influence of Solvent on Selective Catalytic Reduction of Nitrogen Oxides with Ammonia…*, **J. Am. Chem. Soc.** (2022)
 
 <div style="clear:both;"></div>
 
 ---
 
 ## Methods & Software Development
-We also create new approaches and software to address field-wide challenges. A simple idea can have wide impact—e.g., **ShakeNBreak**, a strategy to find low-energy defect configurations that govern conductivity, solar performance, quantum sensing, and more.
+We also develop new approaches to tackle field-wide challenges. Simple ideas can have an outsized impact—for example, developed "Harmonic Vibrational Code", "Fine-Tuned MACE ML-IP", and updated "QM/MM" techniques, a strategy for discovering low-energy defect configurations that govern conductivity, photovoltaic performance, quantum sensing, and more.
 
 **Selected tools**
 - **ShakeNBreak** — Navigating the defect configurational landscape, **JOSS** (2022)  

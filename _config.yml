@@ -31,8 +31,6 @@ author:
 Department of Chemistry<br> 
 University College London<br> 
 20 Gordon Street, London WC1H 0AJ, UK"
-  location         : "UK, London"
-  employer         : "University College London"
   uri              : #"https://Jamal-tech-git.github.io"
   github           : "Jamal-tech-git"
   email            : "jamal.nasir.18@ucl.ac.uk" 
@@ -45,7 +43,6 @@ University College London<br>
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-0474-1610"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Jamal-Abdul-Nasir-2?ev=hdr_xprf"
   scopus           : # URL
 
@@ -59,7 +56,6 @@ University College London<br>
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

@@ -45,7 +45,7 @@ These efforts often involve collaboration (and friendly competition!) with partn
 ## Our Challenges
 
 ### Energy Materials
-<img src="/images/NH3-SCR.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
+<img src="/images/Front_Cover.jpg" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
 
 I aim to contribute to a better society through advanced materials for **energy conversion** and **storage**—from efficient photocatalysts to high-capacity battery cathodes.
 
@@ -61,7 +61,7 @@ I frequently collaborate with experimental and theoretical groups who develop ne
 ---
 
 ### Environmental Remediation 
-<img src="/images/defects.png" alt="Point defects in semiconductors" style="float:right; margin:0 0 1rem 1rem; max-width:260px;">
+<img src="/images/NH3-SCR.png" alt="Graph neural networks for materials" style="float:right; margin:0 0 1rem 1rem; max-width:300px;">
 Transition-metal-containing zeolites have wide-ranging applications in several catalytic processes including the selective catalytic reduction (SCR) of NOx species. To understand how transition metal ions (TMIs) can effect NOx reduction chemistry, both structural and mechanistic aspects at the atomic level are needed. 
 
 **Selected examples**

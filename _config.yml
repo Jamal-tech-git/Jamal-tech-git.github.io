@@ -23,62 +23,21 @@ repository               : "Jamal-tech-git/Jamal-tech-git.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile2.png"
-  name             : "Contact Details"
-  pronouns         : # example: "he/him"  
-  bio              : "Dr Jamal Abdul Nasir<br>     
-       Research Fellow<br>
-Department of Chemistry<br> 
-University College London<br> 
-20 Gordon Street, London WC1H 0AJ, UK"
-  uri              : #"https://Jamal-tech-git.github.io"
-  github           : ""Jamal-tech-git""
-  email            : "jamal.nasir.18@ucl.ac.uk" 
+  avatar: "profile2.png"               # file lives in /images/
+  name: "Dr Jamal Abdul Nasir"
+  bio: |
+    **Contact Details**
+    Research Fellow
+    Department of Chemistry, University College London
+    20 Gordon Street, London WC1H 0AJ, UK
+  email: "jamal.nasir.18@ucl.ac.uk"
 
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=3z0kd50AAAAJ&hl=en"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-0474-1610"
-  semantic         : # URL
-  researchgate     : "https://www.researchgate.net/profile/Jamal-Abdul-Nasir-2?ev=hdr_xprf"
-  scopus           : # URL
-
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
-  # Social media
-  artstation       : # Username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin: "https://www.linkedin.com/in/jamal-abdul-nasir-99106a182/"
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  # Social / academic profiles
+  github: "Jamal-tech-git"             # <-- username ONLY, no https
+  googlescholar: "https://scholar.google.com/citations?user=3z0kd50AAAAJ&hl=en"
+  orcid: "https://orcid.org/0000-0002-0474-1610"
+  researchgate: "Jamal-Abdul-Nasir-2"  # if your theme needs a slug; otherwise use the full URL
+  linkedin: "jamal-abdul-nasir-99106a182"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

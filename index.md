@@ -23,6 +23,9 @@ I work at the intersection of computational materials science, experimental chem
 The research is led by **Jamal Abdul Nasir**.
 
 ---
+### Recent Highlights?
 
-### Interested in collaboration?
+---
+
+#### Interested in collaboration?
 See our [Research](/research/) and [Join](/join/) pages.

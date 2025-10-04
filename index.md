@@ -7,14 +7,15 @@ classes: "wide"
 
 ## What I Do
 <!-- Hero: What I Do -->
-<div class="hero-block">
-  <!-- desktop/tablet background -->
-  <div class="hero-bg" style="background-image:url('{{ "/images/experiment_theory.jpg" | relative_url }}');"></div>
-
-  <!-- mobile image (shown only on small screens by CSS below) -->
-  <img class="hero-mobile" src="{{ "/images/experiment_theory.jpg" | relative_url }}" alt="Experiment & theory hero">
-
-  <div class="hero-inner">
+<div class="hero" style="position:relative;border-radius:12px;overflow:hidden;margin-bottom:1.5rem;">
+  <div class="hero__bg"
+       style="position:absolute;inset:0;
+              background-image:url('{{ "/images/experiment_theory.jpg" | relative_url }}');
+              background-position:50% 35%;  /* nudge focus upward */
+              background-repeat:no-repeat;
+              background-size:cover;
+              filter:brightness(0.85);"></div>
+  <div style="position:relative;z-index:1;display:flex;height:100%;align-items:center;justify-content:center;">
     <h1 style="color:white;text-shadow:0 2px 12px rgba(0,0,0,.35);font-size:clamp(24px,4vw,40px);margin:0;padding:0 1rem;text-align:center;"></h1>
   </div>
 </div>

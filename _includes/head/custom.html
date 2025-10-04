@@ -1,66 +1,85 @@
 <style>
-/* ===== Avatar size (desktop/tablet/phone) ===== */
+/* ========= 1) Sidebar avatar: scale down on phones ========= */
 :root{
-  --avatar-size: 450px;    /* desktop max */
-  --avatar-size-md: 300px; /* medium screens */
-  --avatar-size-sm: 180px; /* phones */
+  --avatar-size: 260px;    /* desktop/tablet max */
 }
-
-/* Only widen the sidebar on wider screens (prevents mobile overflow) */
-@media (min-width: 900px){
-  .sidebar, .sidebar.sticky { max-width: 340px !important; }
-}
-
-/* Bulletproof avatar */
 .page .sidebar .author__avatar{
   width: min(var(--avatar-size), 100%) !important;
   aspect-ratio: 1 / 1;
   border-radius: 50% !important;
   overflow: hidden;
   margin: 0 auto 1rem !important;
-  padding: 0 !important;
-  box-sizing: border-box;
 }
 .page .sidebar .author__avatar img{
   width: 100% !important;
   height: 100% !important;
-  max-width: none !important;
-  object-fit: cover !important;    /* full-bleed, no distortion */
-  object-position: 50% 45% !important;
+  object-fit: cover !important;
   display: block !important;
-  border-radius: 0 !important;
+}
+@media (max-width: 680px){
+  :root{ --avatar-size: 160px; }   /* smaller on phones to avoid clipping */
 }
 
-/* Scale avatar down at narrower widths */
-@media (max-width: 1200px){ :root{ --avatar-size: var(--avatar-size-md); } }
-@media (max-width: 680px){  :root{ --avatar-size: var(--avatar-size-sm); } }
-
-/* ===== Make content images responsive ===== */
-/* Always allow images in page content to shrink to container */
+/* ========= 2) Content images: responsive + unfloated on phones ========= */
 .page .page__content img{
   max-width: 100% !important;
   height: auto !important;
 }
-
-/* On phones/tablets, kill floats (from inline style or classes) and center images */
 @media (max-width: 768px){
   .page .page__content img,
   .page .page__content .align-right,
-  .page .page__content .align-left {
+  .page .page__content .align-left{
     float: none !important;
     display: block !important;
     margin: 0 auto 1rem !important;
   }
-  /* If you used inline max-widths, let them expand to full width on small screens */
-  .page .page__content img[style*="max-width"]{
+  /* Kill fixed inline widths on phones */
+  .page .page__content img[style*="max-width"],
+  .page .page__content img[width]{
     max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
   }
 }
 
-/* Optional: make embedded PDFs/iframes responsive */
+/* ========= 3) Hero banners you added: shrink height on phones ========= */
+.hero-block{
+  position: relative;
+  min-height: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.hero-bg{
+  position: absolute; inset: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.85);
+}
+.hero-inner{
+  position: relative; z-index: 1;
+  display: flex; align-items: center; justify-content: center;
+  min-height: 280px;
+}
+@media (max-width: 680px){
+  .hero-block{ min-height: 180px; }
+  .hero-inner{ min-height: 180px; }
+}
+
+/* ========= 4) Tables/iframes/PDFs: prevent sideways scrolling ========= */
+.page .page__content table{
+  display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
 .page .page__content iframe,
-.page .page__content object{
-  max-width: 100% !important;
-  width: 100% !important;
+.page .page__content object,
+.page .page__content embed{
+  max-width: 100% !important; width: 100% !important; height: auto;
+  aspect-ratio: 16/9;            /* keeps videos readable on phones */
+}
+
+/* ========= 5) Optional: only widen sidebar on large screens ========= */
+@media (min-width: 900px){
+  .sidebar, .sidebar.sticky { max-width: 340px !important; }
 }
 </style>

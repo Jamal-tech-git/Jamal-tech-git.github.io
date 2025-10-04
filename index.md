@@ -38,4 +38,4 @@ The research is led by **Jamal Abdul Nasir**.
 ---
 
 #### Interested in collaboration?
-See our [Research](/research/) and [Join](/join/) pages.
+See our [Research](/research/).

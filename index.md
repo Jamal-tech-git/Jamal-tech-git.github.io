@@ -6,19 +6,22 @@ classes: "wide"
 ---
 
 ## What I Do
-<!-- Hero: What I Do -->
-<div class="hero" style="position:relative;border-radius:12px;overflow:hidden;margin-bottom:1.5rem;">
-  <div class="hero__bg"
-       style="position:absolute;inset:0;
-              background-image:url('{{ "/images/experiment_theory.jpg" | relative_url }}');
-              background-position:50% 35%;  /* nudge focus upward */
-              background-repeat:no-repeat;
-              background-size:cover;
-              filter:brightness(0.85);"></div>
+<!-- Hero: What I Do (inline height so it can't collapse) -->
+<div style="position:relative;height:clamp(220px,40vw,360px);border-radius:12px;overflow:hidden;margin-bottom:1.5rem;">
+  <div style="
+    position:absolute;inset:0;
+    background-image:url('{{ "/images/experiment_theory.jpg" | relative_url }}');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50% 35%; /* nudge focal point up a bit */
+    filter:brightness(0.85);
+  "></div>
+
   <div style="position:relative;z-index:1;display:flex;height:100%;align-items:center;justify-content:center;">
     <h1 style="color:white;text-shadow:0 2px 12px rgba(0,0,0,.35);font-size:clamp(24px,4vw,40px);margin:0;padding:0 1rem;text-align:center;"></h1>
   </div>
 </div>
+
 
 I utilise state-of-the-art computational methods, including quantum mechanics (DFT/Post-HF), machine learning (ML/AI) tools, and experimental techniques (from synthesis to analysis and testing), to design next-generation energy materials for catalysis and understand their atomic-scale properties. These methods enable the design and development of materials for catalytic applications, including **NH₃-SCR**, **HER**, and **CO₂ chemistry**, as well as **Materials properties**.
 

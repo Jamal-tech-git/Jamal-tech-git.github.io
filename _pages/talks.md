@@ -7,43 +7,51 @@ toc: false
 classes: "wide"
 ---
 
-Below is a curated list of invited talks, conference presentations, posters, and workshops.
+> **Legend:** <span class="badge badge--oral">Oral</span> <span class="badge badge--poster">Poster</span> <span class="badge badge--workshop">Workshop</span>
 
-## 2025
-- **EPSRC CDT Keynote Speaker (Quantum Communication & Computing)** — UCL, UK — *Oral* — 02/05/2025
+### All talks
 
-## 2024
-- **20th ICTAC Conference** — Seville, Spain — *Oral* — 09/02–06/2024
-- **11th UK Catalysis Conference** — Loughborough, UK — *Oral* — 01/08–10/2024
-- **MCC Conference 2024** — Daresbury Laboratory, UK — *Oral* — 07/04/2024
+<div class="talks-table-wrapper">
+<table class="talks-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Event</th>
+      <th>Location</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>02/05/2025</td><td>EPSRC CDT Keynote Speaker (Quantum Communication & Computing)</td><td>UCL, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
 
-## 2023
-- **UK Catalysis Hub Summer Conference** — Harwell, UK — *Oral* — 07/17/2023
-- **5th MCC Conference** — Daresbury Laboratory, UK — *Oral* — 06/28/2023
-- **Rideal Conference** — London, UK — *Oral* — 04/05/2023
-- **ACS Spring 2023** — Indianapolis, USA — *Oral* — 03/28/2023
+    <tr><td>09/02–06/2024</td><td>20th ICTAC Conference</td><td>Seville, Spain</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>01/08–10/2024</td><td>11th UK Catalysis Conference</td><td>Loughborough, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>07/04/2024</td><td>MCC Conference 2024</td><td>Daresbury Laboratory, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
 
-## 2022
-- **International Zeolite Conference** — Valencia, Spain — *Poster* — 07/03–07/2022
-- **ICTAC** — France — *Poster* — 06/12–17/2022
-- **8th UK Catalysis Conference** — Loughborough, UK — *Oral* — 01/05–07/2022
+    <tr><td>07/17/2023</td><td>UK Catalysis Hub Summer Conference</td><td>Harwell, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>06/28/2023</td><td>5th MCC Conference</td><td>Daresbury Laboratory, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>04/05/2023</td><td>Rideal Conference</td><td>London, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>03/28/2023</td><td>ACS Spring 2023</td><td>Indianapolis, USA</td><td><span class="badge badge--oral">Oral</span></td></tr>
 
-## 2021
-- **Graphs Workshop** — UCL, UK — *Supervised* — 11/03/2022 *(held in 2022; included here for continuity)*
-- **Phys Chem Workshop** — UCL, UK — *Supervised* — 11/08/2021
-- **MCC Meeting** — UCL, UK — *Oral* — 12/08/2021
-- **Faraday Discussion: Reaction Mechanisms in Catalysis** — London, UK — *Oral* — 06/01–02/2021
-- **ICTAC (International Conf. on Theoretical Catalysis)** — France — *Oral* — 06/14–17/2021
-- **Internal Seminars, Chemical Sustainability** — UCL, UK — *Oral* — 03/10/2021
-- **Faraday Discussion** — UK — *Oral* — 06/17/2021
+    <tr><td>07/03–07/2022</td><td>International Zeolite Conference</td><td>Valencia, Spain</td><td><span class="badge badge--poster">Poster</span></td></tr>
+    <tr><td>06/12–17/2022</td><td>ICTAC</td><td>France</td><td><span class="badge badge--poster">Poster</span></td></tr>
+    <tr><td>01/05–07/2022</td><td>8th UK Catalysis Conference</td><td>Loughborough, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
 
-## 2020
-- **UK Catalysis Hub: Winter Conference** — UK — *Oral* — 12/07/2020
-- **ICTAC** — France — *Oral* — 06/04/2020
+    <tr><td>11/03/2022</td><td>Graphs Workshop</td><td>UCL, UK</td><td><span class="badge badge--workshop">Workshop</span></td></tr>
+    <tr><td>11/08/2021</td><td>Phys Chem Workshop</td><td>UCL, UK</td><td><span class="badge badge--workshop">Workshop</span></td></tr>
+    <tr><td>12/08/2021</td><td>MCC Meeting</td><td>UCL, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>06/01–02/2021</td><td>Faraday Discussion: Reaction Mechanisms in Catalysis</td><td>London, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>06/14–17/2021</td><td>ICTAC (International Conf. on Theoretical Catalysis)</td><td>France</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>03/10/2021</td><td>Internal Seminars, Chemical Sustainability</td><td>UCL, UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>06/17/2021</td><td>Faraday Discussion</td><td>UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
 
-## 2019
-- **CCP5 Summer School** — Durham University, UK — *Poster* — 07/09–18/2019
+    <tr><td>12/07/2020</td><td>UK Catalysis Hub: Winter Conference</td><td>UK</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>06/04/2020</td><td>ICTAC</td><td>France</td><td><span class="badge badge--oral">Oral</span></td></tr>
 
-## 2016
-- **US–Pakistan Centers for Advanced Studies** — Pakistan — *Oral* — 08/01/2016
-- **2nd International Conference on Recent Trends in Chemistry** — Pakistan — *Talk* — 11/24/2016
+    <tr><td>07/09–18/2019</td><td>CCP5 Summer School</td><td>Durham University, UK</td><td><span class="badge badge--poster">Poster</span></td></tr>
+
+    <tr><td>08/01/2016</td><td>US–Pakistan Centers for Advanced Studies</td><td>Pakistan</td><td><span class="badge badge--oral">Oral</span></td></tr>
+    <tr><td>11/24/2016</td><td>2nd International Conference on Recent Trends in Chemistry</td><td>Pakistan</td><td><span class="badge badge--oral">Talk</span></td></tr>
+  </tbody>
+</table>
+</div>
